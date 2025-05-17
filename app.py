@@ -142,12 +142,18 @@ def main():
                 transform: rotate(2deg);
                 margin: 0;
             }
+            .polaroid p {
+                text-align: center;
+                font-family: 'Comic Sans MS', cursive;
+                color: #FF5E8F;
+                font-size: 18px;
+                transform: rotate(2deg);
+                margin: 0;
+            }
             </style>
-            <div class='polaroid'>
-                <img src='""" + "D:\OneYearAnniversary\images\mainpage.jpg" + """'>
-                <p>Forever Yours</p>
-            </div>
-            """, unsafe_allow_html=True)
+            """, unsafe_allowe_html=True)
+            st.image("D:\OneYearAnniversary\images\mainpage.jpg", use_column_width=True)
+            st.markdown("<p class='polaroid'>Forever Yours</p>", unsafe_allow_html=True")
             
             st.markdown("""
             <p style='text-align: center; font-size: 18px;'>
