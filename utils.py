@@ -39,3 +39,10 @@ def create_hearts_animation():
     <div class="floating-heart heart5">💞</div>
     <div class="floating-heart heart6">💘</div>
     """, unsafe_allow_html=True)
+
+def display_photos_grid(photo_paths):
+    import streamlit as st
+    cols = st.columns(2)
+    for i, path in enumerate(photo_paths):
+        with cols[i % 2]:
+            st.image(path, use_column_width=True)
