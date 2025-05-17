@@ -68,11 +68,6 @@ def check_all_completed():
     return all(st.session_state.completed_games)
 # Main app logic
 def main():
-    # Get photos for different sections
-    couple_photos = get_couple_photos()
-    date_photos = get_date_photos()
-    landscape_photos = get_landscape_photos()
-    
     # Define significant dates and their descriptions
     memories = [
         {
