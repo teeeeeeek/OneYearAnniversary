@@ -1,5 +1,4 @@
 import streamlit as st
-from photos import get_couple_photos, get_date_photos, get_landscape_photos
 from games import memory_game, heart_click_game, love_quiz
 from utils import create_hearts_animation, display_photos_grid
 # Page configuration
