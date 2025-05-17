@@ -144,7 +144,7 @@ def main():
             }
             </style>
             <div class='polaroid'>
-                <img src='""" + couple_photos[7] + """'>
+                <img src='""" + "D:\OneYearAnniversary\images\mainpage.jpg" + """'>
                 <p>Forever Yours</p>
             </div>
             """, unsafe_allow_html=True)
