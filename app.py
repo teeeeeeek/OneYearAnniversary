@@ -153,7 +153,7 @@ def main():
             </style>
             """, unsafe_allowe_html=True)
             st.image("D:\OneYearAnniversary\images\mainpage.jpg", use_column_width=True)
-            st.markdown("<p class='polaroid'>Forever Yours</p>", unsafe_allow_html=True")
+            st.markdown("<p class='polaroid'>Forever Yours</p>", unsafe_allow_html=True)
             
             st.markdown("""
             <p style='text-align: center; font-size: 18px;'>
