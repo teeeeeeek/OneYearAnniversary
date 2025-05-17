@@ -151,7 +151,7 @@ def main():
                 margin: 0;
             }
             </style>
-            """, unsafe_allowe_html=True)
+            """, unsafe_allow_html=True)
             st.image("D:\OneYearAnniversary\images\mainpage.jpg", use_column_width=True)
             st.markdown("<p class='polaroid'>Forever Yours</p>", unsafe_allow_html=True)
             
