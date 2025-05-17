@@ -1,5 +1,5 @@
 import streamlit as st
-from games import memory_game, heart_click_game, love_quiz
+from gameOneYearAnniversary import memory_game, heart_click_game, love_quiz
 from utils import create_hearts_animation, display_photos_grid
 # Page configuration
 st.set_page_config(
