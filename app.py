@@ -152,7 +152,7 @@ def main():
             }
             </style>
             """, unsafe_allow_html=True)
-            st.image(images/"D:\OneYearAnniversary\images\mainpage.jpg", use_container_width=True)
+            st.image("images/mainpage.jpg", use_container_width=True)
             st.markdown("<p class='polaroid'>Forever Yours</p>", unsafe_allow_html=True)
             
             st.markdown("""
