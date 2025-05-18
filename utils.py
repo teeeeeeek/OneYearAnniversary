@@ -45,4 +45,4 @@ def display_photos_grid(photo_paths):
     cols = st.columns(2)
     for i, path in enumerate(photo_paths):
         with cols[i % 2]:
-            st.image(path, use_column_width=True)
+            st.image(path, width=300)
