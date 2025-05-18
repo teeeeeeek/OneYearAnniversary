@@ -145,7 +145,7 @@ def main():
             </style>
             """, unsafe_allow_html=True)
             with st.container():
-                st.image("images/mainpage.jpg", use_column_width=True)
+                st.image("images/mainpage.jpg", use_container_width=True)
 
                 st.markdown("""
                 <div style="text-align: center; font-family: 'Comic Sans MS', cursive; font-size: 18px; color: #A678B4; margin-top: -10px;">
