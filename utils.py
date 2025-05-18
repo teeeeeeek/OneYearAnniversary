@@ -42,7 +42,27 @@ def create_hearts_animation():
 
 def display_photos_grid(photo_paths):
     import streamlit as st
+
     cols = st.columns(2)
     for i, path in enumerate(photo_paths):
         with cols[i % 2]:
-            st.image(path, width=300)
+            st.markdown(
+                f"""
+                <div style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                ">
+                    <img src="{path}" style="
+                        width: 280px;
+                        height: 370px;
+                        object-fit: cover;
+                        border-radius: 15px;
+                        box-shadow: 0 8px 20px rgba(255, 192, 203, 0.2);
+                        border: 2px solid #FFB6C1;
+                    ">
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
