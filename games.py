@@ -452,7 +452,7 @@ def love_quiz(game_index):
             'wrong_answer': False,
             'wrong_time': None,
             'correct_answer': True,
-            'correct_time': None
+            'correct_time': time.time()
         }
     
     game_state = st.session_state[f'quiz_game_{game_index}']
@@ -472,9 +472,10 @@ def love_quiz(game_index):
     if game_state['wrong_answer'] and time.time() - game_state['wrong_time'] > 2:
         game_state['wrong_answer'] = False
         st.rerun()
-    if game_state['correct_answer'] and time.time() - game_state['correct_time'] > 2:
+    if game_state['correct_answer'] and game_state['correct_time'] is not None and time.time() - game_state['correct_time'] > 2:
         game_state['correct_answer'] = False
         st.rerun()
+
     
     # Add cute quiz styling
     st.markdown("""
