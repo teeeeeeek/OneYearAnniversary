@@ -432,26 +432,26 @@ def love_quiz(game_index):
                     'question': "What was the date we said 'I Love You' to each other?",
                     'options': ["June 1st", "July 11th", "August 2nd", "August 10th"],
                     'answer': 4,  # August 10th
-                    'completed': False
+                    'completed': True
                 },
                 {
                     'question': "What was the name of the restaurant we went to, when you gifted me the bracelet?",
                     'options': ["Ru", "Renao", "Dominos", "Chubby Cho"],
                     'answer': 2,  # Renao
-                    'completed': False
+                    'completed': True
                 },
                 {
                     'question': "What was my favorite date of ours?",
                     'options': ["Renao", "Dominos", "Last House", "Street Side Momos"],
                     'answer': 3,  # Last House
-                    'completed': False
+                    'completed': True
                 }
             ],
             'current_question': 0,
             'complete': False,
             'wrong_answer': False,
             'wrong_time': None,
-            'correct_answer': False,
+            'correct_answer': True,
             'correct_time': None
         }
     
