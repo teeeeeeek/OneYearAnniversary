@@ -75,8 +75,8 @@ def main():
             "title": "The Farewell, The Triple Date Week, The Day We Got Together",
             "description": "Remember how we felt during those weeks, so excited, nervous but also happy. The cutest and most wholesome weeks. Our first kiss, cuddle all of it.",
             "photos": [
-                "https://github.com/teeeeeeek/OneYearAnniversary/blob/main/images/farewell1.jpg",
-                "https://github.com/teeeeeeek/OneYearAnniversary/blob/main/images/farewell2.jpg"
+                "https://raw.githubusercontent.com/teeeeeeek/OneYearAnniversary/main/images/farewell1.jpg",
+                "https://raw.githubusercontent.com/teeeeeeek/OneYearAnniversary/main/images/farewell2.jpg"
                 ]
         },
         {
@@ -84,8 +84,8 @@ def main():
             "title": "The Nights We Spent.",
             "description": "August 10th was the day we said 'I love You' to each other, it's the most special day for me. These 2 days were the most beautiful and they were as heavenly as you are. The feeling of waking up beside you as you sleep holding me is something I'll never forget and that felt like we were stuck in time.",
             "photos": [
-                "https://github.com/teeeeeeek/OneYearAnniversary/blob/main/images/lunch1.jpg",
-                "https://github.com/teeeeeeek/OneYearAnniversary/blob/main/images/lunch2.jpg"
+                "https://raw.githubusercontent.com/teeeeeeek/OneYearAnniversary/main/images/nights1.jpg",
+                "https://raw.githubusercontent.com/teeeeeeek/OneYearAnniversary/main/images/nights2.jpg"
                 ]
         },
         {
@@ -93,8 +93,8 @@ def main():
             "title": "Our Lunch Dates",
             "description": "Whether it was Ru or Apik, they were both abosultely beautiful. Our cute laughs and nervousness in Ru leading to us meeting after I came back in Apik and being full on couply. Every moment was loving.",
             "photos": [
-                "https://github.com/teeeeeeek/OneYearAnniversary/blob/main/images/nights1.jpg",
-                "https://github.com/teeeeeeek/OneYearAnniversary/blob/main/images/nights2.jpg"
+                "https://raw.githubusercontent.com/teeeeeeek/OneYearAnniversary/main/images/lunch1.jpg",
+                "https://raw.githubusercontent.com/teeeeeeek/OneYearAnniversary/main/images/lunch2.jpg"
                 ]
         }
     ]
