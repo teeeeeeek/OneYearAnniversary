@@ -34,6 +34,13 @@ def memory_game(game_index):
         }
     
     game_state = st.session_state[f'memory_game_{game_index}']
+
+    # --- OPTIONAL SKIP BUTTON ---
+    if not game_state['complete']:
+        if st.button("💫 Skip This Challenge", key=f"skip_{game_index}"):
+            game_state['complete'] = True
+            st.success("You skipped the challenge! Feel free to move forward 💖")
+            return True
     
     # Skip rendering if already completed
     if game_state['complete']:
@@ -397,6 +404,13 @@ def heart_click_game(game_index):
             st.rerun()
     
     return game_state['complete']
+    # --- OPTIONAL SKIP BUTTON ---
+    if not game_state['complete']:
+        if st.button("💫 Skip This Challenge", key=f"skip_{game_index}"):
+            game_state['complete'] = True
+            st.success("You skipped the challenge! Feel free to move forward 💖")
+            return True
+
 
 def love_quiz(game_index):
     """
@@ -415,25 +429,22 @@ def love_quiz(game_index):
         st.session_state[f'quiz_game_{game_index}'] = {
             'questions': [
                 {
-                    'question': "What is the traditional gift for a first anniversary?",
-                    'options': ["Chocolate", "Paper", "Cotton", "Wood"],
-                    'answer': 1,  # Paper
-                    'completed': False,
-                    'fun_fact': "Paper represents the blank page of a new beginning in your relationship!"
+                    'question': "What was the date we said 'I Love You' to each other?",
+                    'options': ["June 1st", "July 11th", "August 2nd", "August 10th"],
+                    'answer': 4,  # August 10th
+                    'completed': False
                 },
                 {
-                    'question': "Which city is known as the 'City of Love'?",
-                    'options': ["Venice", "Rome", "Paris", "Vienna"],
-                    'answer': 2,  # Paris
-                    'completed': False,
-                    'fun_fact': "Paris has been inspiring romance for centuries with its charming streets and twinkling lights!"
+                    'question': "What was the name of the restaurant we went to, when you gifted me the bracelet?",
+                    'options': ["Ru", "Renao", "Dominos", "Chubby Cho"],
+                    'answer': 2,  # Renao
+                    'completed': False
                 },
                 {
-                    'question': "What flower is traditionally associated with love?",
-                    'options': ["Tulip", "Lily", "Daisy", "Rose"],
-                    'answer': 3,  # Rose
-                    'completed': False,
-                    'fun_fact': "Red roses symbolize passionate love, while pink roses represent admiration and joy!"
+                    'question': "What was my favorite date of ours?",
+                    'options': ["Renao", "Dominos", "Last House", "Street Side Momos"],
+                    'answer': 3,  # Last House
+                    'completed': False
                 }
             ],
             'current_question': 0,
@@ -636,3 +647,11 @@ def love_quiz(game_index):
             game_state['current_question'] = 0
             game_state['wrong_answer'] = False
             game_state['correct_answer'] = False
+
+    # --- OPTIONAL SKIP BUTTON ---
+    if not game_state['complete']:
+        if st.button("💫 Skip This Challenge", key=f"skip_{game_index}"):
+            game_state['complete'] = True
+            st.success("You skipped the challenge! Feel free to move forward 💖")
+            return True
+
