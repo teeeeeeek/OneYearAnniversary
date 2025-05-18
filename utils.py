@@ -48,12 +48,7 @@ def display_photos_grid(photo_paths):
         with cols[i % 2]:
             st.markdown(
                 f"""
-                <div style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 10px;
-                ">
+                <div style="display: flex; justify-content: center; align-items: center; padding: 10px;">
                     <img src="{path}" style="
                         width: 280px;
                         height: 370px;
