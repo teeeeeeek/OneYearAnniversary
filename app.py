@@ -333,7 +333,7 @@ def main():
                 st.markdown(f"""
                 <div style="text-align: center; margin: 20px 0; padding: 15px; background: rgba(255, 255, 255, 0.7); border-radius: 15px;">
                     <p style="font-family: 'Comic Sans MS', cursive; color: #FF5E8F; font-size: 18px; margin-bottom: 10px;">
-                        <span style="font-size: 24px;">💌</span> My Dearest {st.session_state.user_name},
+                        <span style="font-size: 24px;">💌</span> Bangaram {st.session_state.user_name},
                     </p>
                     <p style="font-style: italic; margin-bottom: 15px;">
                         Thank you for being the most amazing girlfriend. Every moment with you, every single day, feels like a dream come true.
