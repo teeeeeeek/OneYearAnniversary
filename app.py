@@ -211,7 +211,7 @@ def main():
             <h3 style='color: #FF5E8F; text-shadow: 1px 1px 3px rgba(255, 105, 180, 0.3);'>
                 <span class='heartbeat'>💝</span> Sweet Challenge <span class='heartbeat'>💝</span>
             </h3>
-            <p style='font-style: italic;'>Complete this little game to unlock our next memory!</p>
+            <p style='font-style: italic;'>Complete this little game to unlock our next memory💖</p>
         </div>
         """, unsafe_allow_html=True)
         
@@ -244,7 +244,7 @@ def main():
                 next_button_label = "Next Memory ➡️" if memory_index < 2 else "See My Surprise Gift ✨"
                 st.button(next_button_label, type="primary", on_click=next_page, use_container_width=True)
             else:
-                st.button("Complete the challenge to continue 💝", disabled=True, use_container_width=True)
+                st.button("Complete this small challenge to continue 💝", disabled=True, use_container_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
                 
         # Fancy progress indicator
@@ -336,11 +336,11 @@ def main():
                         <span style="font-size: 24px;">💌</span> My Dearest {st.session_state.user_name},
                     </p>
                     <p style="font-style: italic; margin-bottom: 15px;">
-                        Thank you for being my everything. Every moment with you feels like a dream come true.
-                        This past year has been the most beautiful chapter of my life, all because of your love.
+                        Thank you for being the most amazing girlfriend. Every moment with you, every single day, feels like a dream come true.
+                        This past year has been the most beautiful chapter, all because of your love and care baby💖.
                     </p>
                     <p style="font-weight: bold; color: #FF5E8F;">
-                        Here's to many more beautiful years together! I love you to the moon and back!
+                        I can't wait to come back and hug you tight and give you the softest kissies! I love you baby💕.
                     </p>
                     <div style="font-size: 20px; margin-top: 10px;">
                         💝💕💖
@@ -362,7 +362,7 @@ def main():
             <div style="text-align: center; padding: 30px; background: rgba(255, 240, 245, 0.8); border-radius: 20px; margin: 50px auto; max-width: 600px; box-shadow: 0 5px 15px rgba(255, 94, 143, 0.2); border: 2px dashed #FF5E8F;">
                 <img src="https://pixabay.com/get/g792c60e17e8ce5d53dedc0ef4a5a6ee6f65ad9c3b767a70e6b87d5fbb70d6c81bc47e0fbc8979a9fd02cbd8efeeafed2f65bcac98c2ee17d6c7e1b0b4d9a6eb2_640.png" style="width: 100px; margin-bottom: 20px;">
                 <h2 style="color: #FF5E8F; margin-bottom: 20px;">Just a little more to go!</h2>
-                <p style="font-style: italic; margin-bottom: 20px;">Please complete all our special memory challenges first to unlock your surprise! 💝</p>
+                <p style="font-style: italic; margin-bottom: 20px;">You have to complete all our special memory challenges first to unlock your surprise! 💝</p>
             </div>
             """, unsafe_allow_html=True)
             
