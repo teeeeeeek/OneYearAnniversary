@@ -327,7 +327,7 @@ def main():
             col1, col2, col3 = st.columns([1, 3, 1])
             with col2:
                 # Using a placeholder YouTube video
-                st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+                st.video("https://youtu.be/wjKc2sQ6lSk")
                 
                 # Add a personal message with decorative elements
                 st.markdown(f"""
